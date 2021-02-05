@@ -1,0 +1,50 @@
+05.02.2021 05:01:04 | Текст ошибки: Class 'app\controllers\Cache' not found | Файл: D:\OSPanel\domains\createFramework\app\controllers\MainController.php | Строка: 19
+==========================
+05.02.2021 05:01:22 | Текст ошибки: Class 'ishop\Cache' not found | Файл: D:\OSPanel\domains\createFramework\app\controllers\MainController.php | Строка: 20
+==========================
+05.02.2021 05:01:31 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:01:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:01:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:07 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:07 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:07 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:52 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:53 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:53 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:53 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:02:55 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:03:31 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:03:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:03:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:03:33 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:04:03 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:04:04 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:04:04 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:04:06 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:04:17 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+==========================
+05.02.2021 05:04:43 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 11
+==========================
+05.02.2021 05:04:52 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 11
+==========================
+05.02.2021 05:16:10 | Текст ошибки: Call to a member function delete() on null | Файл: D:\OSPanel\domains\createFramework\app\controllers\MainController.php | Строка: 22
+==========================

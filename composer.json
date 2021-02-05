@@ -1,0 +1,13 @@
+{
+    "name": "framework/framework",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "createFramework\\": "vendor/createFramework/core",
+            "app\\": "app"
+        }
+    },
+    "require": {
+        "gabordemooij/redbean": "dev-master"
+    }
+}
