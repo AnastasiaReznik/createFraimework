@@ -1,50 +1,218 @@
-05.02.2021 05:01:04 | Текст ошибки: Class 'app\controllers\Cache' not found | Файл: D:\OSPanel\domains\createFramework\app\controllers\MainController.php | Строка: 19
+2021-02-08 02:03:46 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:01:22 | Текст ошибки: Class 'ishop\Cache' not found | Файл: D:\OSPanel\domains\createFramework\app\controllers\MainController.php | Строка: 20
+2021-02-08 02:04:09 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:01:31 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:04:24 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:01:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:06:44 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:01:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:06:44 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
 ==========================
-05.02.2021 05:02:07 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:06:56 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:02:07 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:09:29 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:02:07 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:09:29 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
 ==========================
-05.02.2021 05:02:52 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:09:31 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:02:53 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:09:32 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:02:53 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:09:32 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:02:53 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:09:33 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:02:55 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:10:04 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:03:31 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:10:05 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:03:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:10:39 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
 ==========================
-05.02.2021 05:03:32 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+2021-02-08 02:10:48 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
 ==========================
-05.02.2021 05:03:33 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+08.02.2021 02:14:01 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:03 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+08.02.2021 02:14:13 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:04 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+08.02.2021 02:14:45 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:04 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+08.02.2021 02:15:06 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:06 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+08.02.2021 02:15:32 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:17 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 10
+08.02.2021 02:15:33 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:43 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 11
+08.02.2021 02:15:33 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:04:52 | Текст ошибки: syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting '{' | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Cache.php | Строка: 11
+08.02.2021 02:15:33 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
 ==========================
-05.02.2021 05:16:10 | Текст ошибки: Call to a member function delete() on null | Файл: D:\OSPanel\domains\createFramework\app\controllers\MainController.php | Строка: 22
+08.02.2021 02:15:34 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:15:34 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:15:45 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:15:47 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:16:10 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:16:11 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:16:11 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:16:30 | Текст ошибки: страница не найдена | Файл: D:\OSPanel\domains\createFramework\public\index.php | Строка: 12
+==========================
+08.02.2021 02:16:40 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:16:40 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:16:44 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:16:44 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:17:23 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:17:23 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:17:45 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:17:45 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:01 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:01 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:02 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:02 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:02 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:02 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:09 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:09 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:10 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:10 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:10 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:10 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:34 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:34 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:18:57 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:18:59 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:19:16 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:19:42 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:20:02 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:20:04 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:20:57 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:21:13 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:21:38 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:21:40 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:21:42 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:21:43 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:21:43 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:22:29 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:22:30 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:22:31 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:25:51 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:28:42 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:28:50 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:28:52 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:03 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:10 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:18 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:30 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:44 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:52 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:29:52 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:30:36 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:30:36 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:30:59 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:30:59 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:31:32 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:31:32 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:31:41 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:31:41 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:32:05 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:32:05 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:32:06 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:32:06 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:32:07 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:32:07 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:32:07 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:32:07 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:32:26 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:32:26 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:32:52 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 02:32:52 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 02:38:51 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 48
+==========================
+08.02.2021 04:57:57 | Текст ошибки: Контроллер app\controllers\GhjgjkController не найден | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 45
+==========================
+08.02.2021 04:58:13 | Текст ошибки: Не найден вид D:\OSPanel\domains\createFramework/app/views/Page/index.php | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\base\View.php | Строка: 44
+==========================
+08.02.2021 04:59:05 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 04:59:13 | Текст ошибки: Контроллер app\controllers\HkklkjgkjController не найден | Файл: D:\OSPanel\domains\createFramework\vendor\createFramework\core\Router.php | Строка: 45
+==========================
+08.02.2021 04:59:15 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 04:59:17 | Текст ошибки: Call to a member function grep() on null | Файл: D:\OSPanel\domains\createFramework\app\views\layouts\default.php | Строка: 14
+==========================
+08.02.2021 05:19:34 | Текст ошибки: syntax error, unexpected '?>' | Файл: D:\OSPanel\domains\createFramework\app\views\Main\index.php | Строка: 4
 ==========================

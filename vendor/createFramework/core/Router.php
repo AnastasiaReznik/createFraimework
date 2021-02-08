@@ -2,15 +2,15 @@
 namespace createFramework;
 class Router
 {
-    protected static $routes = []; //все маршруты на сайте
-    protected static $route = []; //текущий маршрут в адресе, сюда будет записываться соответствие
+    protected static $routes = []; //все маршруты(адреса) на сайте
+    protected static $route = []; //текущий маршрут в адресе, сюда будет записываться соответствие с тем что в адресной строке и в массиве
 
-    // правила записи маршрутов в таблицу маршрутов(регуляр выраж и )
-    public static function add($regexp, $route =[] ) {
+    // запись маршрутов в таблицу маршрутов(регуляр выраж и маршрут из url )
+    public static function add($regexp, $route=[] ) {
         self::$routes[$regexp] = $route;
     }
 
-    // возвращ табл маршрутов, для тестиров
+    // возвращ табл маршрутов, для тестирования
     public static function getRoutes() {
         return self::$routes;
     }
@@ -53,7 +53,7 @@ class Router
     public static function matchRoute($url)
     {
         foreach (self::$routes as $pattern => $route) {
-            if (preg_match("#{$pattern}#", $url, $matches)) {   
+            if (preg_match("#{$pattern}#", $url, $matches)) {
                foreach ($matches as $k => $val) {
                    if (is_string($k)) {
                        $route[$k] =$val; //запис в массив только строковые ключи controller  и action
@@ -69,7 +69,7 @@ class Router
                }
                $route['controller'] = self::upperCamelCase($route['controller']);
                self::$route = $route;
-            //    debug(self::$route); 
+            //    debug(self::$route);
                return true;
             }
         }
@@ -84,9 +84,10 @@ class Router
     }
     //изменить наименова для экшэнов к виду  indexAction
     protected static function lowerCamelCase($name)
-    { 
+    {
         return lcfirst(self::upperCamelCase($name));
     }
+
     protected static function removeQueryString($url)
     {
         if ($url) {

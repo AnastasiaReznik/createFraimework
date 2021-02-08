@@ -2,7 +2,7 @@
 namespace createFramework\base;
 abstract class Controller
 {
-    public $route;
+    public $route; //текущий маршрут - массив с контроллнром., экшэнои и префиксом
     public $controller;
     public $model;
     public $view;

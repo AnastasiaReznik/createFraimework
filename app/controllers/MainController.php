@@ -24,7 +24,7 @@ class MainController extends AppController
         if (!$data) {
             $cache->set('test', $names);
         }
-        debug($data);
+        // debug($data);
         $this->set(compact('name', 'age', 'names', 'posts')); //сделать массив с ключами name age
     }
 }

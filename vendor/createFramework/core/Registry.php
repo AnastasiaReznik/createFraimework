@@ -14,7 +14,7 @@ public function setProperty($name, $value)
 //получает из контейнера свойство
 public function getProperty($name)
 {
-    if (isset (self::$properties[$name])) {
+    if (isset(self::$properties[$name])) {
         return self::$properties[$name];
     } else {
         return null;
