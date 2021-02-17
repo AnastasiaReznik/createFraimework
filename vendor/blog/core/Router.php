@@ -1,5 +1,5 @@
 <?php
-namespace createFramework;
+namespace blog;
 class Router
 {
     protected static $routes = []; //все маршруты(адреса) на сайте
@@ -23,8 +23,10 @@ class Router
     // метод, вызывает matchRoute() и в рез-ту либо вызывает соответствующий контроллер или ошибку 404
     public static function dispatch($url)
     {
+        // debug($url);
         $url = self::removeQueryString($url);
         // var_dump($url);
+        // если совпадение с таблицей маршрутов найдено
         if (self::matchRoute($url)) {
             // находим соответствующий контроллер
            $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
@@ -94,8 +96,10 @@ class Router
            $params = explode('&', $url, 2);
         //    debug($params);
            if (false === strpos($params[0], '=')) {
+            //    debug($url);
                return rtrim($params[0], '/');
            } else {
+            // debug($url);
                return '';
            }
         }

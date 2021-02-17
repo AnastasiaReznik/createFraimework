@@ -1,5 +1,5 @@
 <?php
-namespace createFramework\base;
+namespace blog\base;
 abstract class Controller
 {
     public $route; //текущий маршрут - массив с контроллнром., экшэнои и префиксом

@@ -1,6 +1,6 @@
 <?php
 namespace app\models;
-use createFramework\base\Model;
+use blog\base\Model;
 class AppModel extends Model
 {
     

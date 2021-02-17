@@ -1,6 +1,9 @@
-<h1>Приветики - пистолетики</h1>
-<p><?= $name; ?></p>
-<p><?= $age; ?></p>
-<?php foreach ($posts as $post) : ?>
-<h3><?= $post['title']?></h3>
-<?php endforeach; ?>
+<div class="col-md-8">
+<h1 class="mb-4">Последние опубликованные посты</h1>
+<?php if ($allPosts) : ?>
+<?php require_once LIBS .'/cardsWithPostsInc.php'; ?>
+<?php if ($pagination->countPages > 1) : ?>
+<?= $pagination; ?>
+<?php endif;  ?>
+<?php endif;  ?>
+</div>

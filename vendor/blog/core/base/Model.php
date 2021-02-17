@@ -1,6 +1,6 @@
 <?php
-namespace createFramework\base;
-use createFramework\Db;
+namespace blog\base;
+use blog\Db;
 abstract class Model
 {
     public $attributes = [];

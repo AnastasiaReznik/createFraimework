@@ -1,5 +1,5 @@
 <?php
-namespace createFramework;
+namespace blog;
 
 class Cache {
     use TSingletone;
@@ -35,6 +35,6 @@ class Cache {
         $file = CACHE . '/' . md5($key) . '.txt';
         if (file_exists($file)) {
             unlink($file); //удалить файл
-         }    
+         }
     }
 }

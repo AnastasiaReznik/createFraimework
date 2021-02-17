@@ -1,5 +1,5 @@
 <?php
-namespace createFramework\base;
+namespace blog\base;
 class View
 {
     public $route;

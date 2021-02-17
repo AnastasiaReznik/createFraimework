@@ -1,7 +1,7 @@
 <?php
 namespace app\controllers;
 use app\models\AppModel;
-use createFramework\base\Controller;
+use blog\base\Controller;
 
 class AppController extends Controller
 {

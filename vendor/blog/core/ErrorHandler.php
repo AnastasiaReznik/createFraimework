@@ -1,5 +1,5 @@
 <?php
-namespace createFramework;
+namespace blog;
 class ErrorHandler
 {
     public function __construct()

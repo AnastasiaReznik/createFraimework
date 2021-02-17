@@ -1,6 +1,6 @@
 <?php
 return [  
-    "dsn" => "mysql:host=localhost;dbname=createframe;utf8",
+    "dsn" => "mysql:host=localhost;dbname=blog;utf8",
     "user" => "root",
     "pass" => "",
 ];
