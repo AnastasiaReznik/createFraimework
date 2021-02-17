@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 15.02.2021 11:37:09 | Текст ошибки: Class 'createFramework\base\Model' not found | Файл: D:\OSPanel\domains\blog\app\models\AppModel.php | Строка: 4
 ==========================
 15.02.2021 11:37:09 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 49
@@ -266,4 +264,3 @@
 ==========================
 17.02.2021 01:24:44 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\createFraimework-main\vendor\blog\core\Router.php | Строка: 50
 ==========================
->>>>>>> Stashed changes
