@@ -1,30 +1,27 @@
 <?php
 namespace app\controllers;
 use \Controller;
-use createFramework\Db;
-use createFramework\Cache;
+use blog\Db;
+use blog\Cache;
+use  blog\libs\Pagination;
+use  blog\App;
 class MainController extends AppController
 {
     public function indexAction()
     {
-        $posts = \R::findAll('test');
-        $post = \R::findOne('test', 'id = ?', [2]);
-        // debug($post);
-        $this->setMeta('Главная страница', 'Описание', 'Ключевики');
+        $this->setMeta('Главная страница');
+        // 1-настроить пагинацию
+        //текущая страница - из гет, кол-во постов на странице из конфига,
+        $countPosts = \R::count('posts_content');
+        $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        // debug($countPosts);
+        $arrProp =(App::$app->getProperties());
+        $countPostsOnPage = $arrProp['count_post_on_page'];
+        // debug($countPostsOnPage);
+        $pagination = new Pagination($currentPage,$countPosts, $countPostsOnPage);
+        $from = $pagination->getStart();
 
-        // $this->set(['name' => 'Anasreosha', 'age' => 99]);
-
-        $name = 'John';
-        $age = 30;
-        $names = ['Andreu', 'Pavrut', 'Dasha'];
-        $cache = Cache::instance();
-        // $cache->set('test', $names);
-        // $cache->delete('test');
-        $data = $cache->get('test');
-        if (!$data) {
-            $cache->set('test', $names);
-        }
-        // debug($data);
-        $this->set(compact('name', 'age', 'names', 'posts')); //сделать массив с ключами name age
+        $allPosts = \R::findAll('posts_content', "ORDER BY id DESC LIMIT $from, $countPostsOnPage");
+        $this->set(compact('allPosts', 'pagination'));
     }
 }

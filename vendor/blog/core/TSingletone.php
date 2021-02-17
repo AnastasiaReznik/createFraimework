@@ -1,5 +1,5 @@
 <?php
-namespace createFramework;
+namespace blog;
 
 trait TSingletone
 {

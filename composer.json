@@ -1,9 +1,9 @@
 {
-    "name": "framework/framework",
+    "name": "blog/blog",
     "description": "",
     "autoload": {
         "psr-4": {
-            "createFramework\\": "vendor/createFramework/core",
+            "blog\\": "vendor/blog/core",
             "app\\": "app"
         }
     },
