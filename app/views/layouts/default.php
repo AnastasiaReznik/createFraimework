@@ -1,19 +1,6 @@
 <?php
 use  blog\App;
 use  blog\libs\Pagination;
-$categories = \R::findAll('categories');
-
-if (isset($_GET['search'])) {
-  $get_search = checkDataForm($_GET);
-  // debug($get_search);
-
-  search($get_search);
-  //разбить на массив по пробелу
-  //задать макс длину запроса и мин 1символ
-  //проверить в бд по title в постах совпадение с запросом  и учесть по одной букве запрос
-  //совпадения добавлять в массив
-  // $res = checkDataForm($arr_form);
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,7 +32,7 @@ if (isset($_GET['search'])) {
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="/about">About</a>
           </li>
         </ul>
       </div>
@@ -57,7 +44,6 @@ if (isset($_GET['search'])) {
     <div class="row">
 
     <?= $content; ?>
-
 <div class="col-md-4">
 
 <!-- Search Widget -->
@@ -83,7 +69,7 @@ if (isset($_GET['search'])) {
     <div class="row">
       <div class="col-lg-6">
         <ul class="list-unstyled mb-0">
-        <?php foreach ($categories as $key => $cat) : ?>
+        <?php foreach ($cat as $key => $cat) : ?>
           <li>
             <a href="/category/<?= $cat['name']; ?>" data-id='<?= $key ?>'><?= $cat['name']; ?></a>
           </li>
@@ -94,15 +80,8 @@ if (isset($_GET['search'])) {
   </div>
 </div>
 </div>
-
-    <?php $logs = R::getDatabaseAdapter()
-            ->getDatabase()
-            ->getLogger();
-    //debug( $logs->grep( 'SELECT' ) ); ?>
-    </div>
-
+</div>
  </div>
-
  <!-- Footer -->
   <footer class="py-5 bg-dark footer">
     <div class="container">

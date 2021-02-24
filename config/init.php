@@ -4,7 +4,7 @@ define("ROOT", dirname(__DIR__));
 define("WWW", ROOT . '/public');
 define("APP", ROOT . '/app');
 define("CORE", ROOT . '/vender/blog/core');
-define("LIBS", ROOT . '/vendor/blog/core/libs');
+define("LIBS", ROOT . '/app/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
 define("LAYOUT",'default');

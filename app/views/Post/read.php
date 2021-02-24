@@ -1,25 +1,10 @@
-<?php
-if (isset($_POST['userName']) AND isset($_POST['email']) AND isset($_POST['comment'])) {
-  if (!$_POST['g-recaptcha-response']) {
-    die('Заполните каптчу!');
-  }
-  $url = 'https://www.google.com/recaptcha/api/siteverify';
-  $secret_key = '6Ldo4VgaAAAAANOMj_iLFWqtx9AoilSjN9nnZaz_';
-  $query = $url . '?secret=' . $secret_key . '&response='. $_POST['g-recaptcha-response'] . '&remoteip=' . $_SERVER['REMOTE_ADDR'];
-
-  $data = json_decode(file_get_contents($query));
-  if (!$data->success) {
-    exit('Каптча введена неверно!');
-  }
-  $data_forms = checkDataForm($_POST);
-  // debug($data_forms);
-  addCommentInDb($data_forms, $id_post);
-  // echo 'всё введено верно!';
-}
-?>
 <!-- Post Content Column -->
 <div class="col-lg-8">
-
+<?php if (isset($msg)) : ?>
+  <div class="alert alert-primary" role="alert">
+    <?= $msg; ?>
+  </div>
+<?php endif; ?>
 <!-- Title -->
 <h1 class="mt-4"><?= $post[$id_post]['title']; ?></h1>
 <hr>
@@ -39,6 +24,29 @@ if (isset($_POST['userName']) AND isset($_POST['email']) AND isset($_POST['comme
 <!-- Comments Form -->
 <div class="card my-4">
   <h5 class="card-header">Оставьте комментарий:</h5>
+  <?php if (isset($error)) : ?>
+  <?php if (isset($error['empty_field'])) : ?>
+  <?php if ($error['empty_field'] == 'userName') : ?>
+  <div class="alert alert-danger" role="alert">
+    <?php echo $error['error'] . ' "Ваше имя"'; ?>
+  </div>
+  <?php endif; ?>
+  <?php if ($error['empty_field'] == 'email') : ?>
+  <div class="alert alert-danger" role="alert">
+    <?php echo $error['error'] . ' "Email"'; ?>
+  </div>
+  <?php endif; ?>
+  <?php if ($error['empty_field'] == 'comment') : ?>
+  <div class="alert alert-danger" role="alert">
+    <?php echo $error['error'] . ' "Комментарий"'; ?>
+  </div>
+  <?php endif; ?>
+  <?php elseif (!isset($error['empty_field'])) : ?>
+    <div class="alert alert-danger" role="alert">
+    <?php echo "Заполните все поля!"; ?>
+  </div>
+  <?php endif; ?>
+  <?php endif; ?>
   <div class="card-body">
     <form id="form-comments" method="POST" >
       <div class="form-group">
@@ -58,10 +66,8 @@ if (isset($_POST['userName']) AND isset($_POST['email']) AND isset($_POST['comme
       <div class="g-recaptcha" data-sitekey="6Ldo4VgaAAAAADS1-8_jIWxzN5M3E0s1T6M3AdVd"></div>
       <button type="submit" class=" btn btn-primary">Отправить</button>
     </form>
-    <!-- <div class="text-danger" id="recaptchaError"></div> -->
   </div>
 </div>
-
 <?php if ($comments) : ?>
 <!-- Single Comment -->
 <?php foreach ($comments as $ind => $comment) : ?>

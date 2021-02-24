@@ -10,7 +10,7 @@
               </div>
               </div>
                 <div class="card-body h-100" style="">
-                  <a href="/post/<?=$content['alias']?>" class="btn btn-primary">Читать дальше&rarr;</a>
+                  <a href="/post/<?= str_replace(" ", "-", $content['alias']);?>" class="btn btn-primary">Читать дальше&rarr;</a>
                 </div>
               <div class="card-footer text-muted">
                 Дата публикации: <?= $content['date']; ?>
