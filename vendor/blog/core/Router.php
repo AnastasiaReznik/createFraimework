@@ -23,9 +23,9 @@ class Router
     // метод, вызывает matchRoute() и в рез-ту либо вызывает соответствующий контроллер или ошибку 404
     public static function dispatch($url)
     {
-        // debug($url);
         $url = self::removeQueryString($url);
-        // var_dump($url);
+        // debug($url);
+        
         // если совпадение с таблицей маршрутов найдено
         if (self::matchRoute($url)) {
             // находим соответствующий контроллер
@@ -93,6 +93,7 @@ class Router
     protected static function removeQueryString($url)
     {
         if ($url) {
+            // var_dump($url);
            $params = explode('&', $url, 2);
         //    debug($params);
            if (false === strpos($params[0], '=')) {

@@ -1,6 +1,5 @@
 <?php
 namespace blog;
-
 class App
 {
     public static $app; //контейнер, в кот кладем свой-ва, объекты

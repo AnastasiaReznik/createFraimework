@@ -1,5 +1,5 @@
 <?php
-namespace blog\libs;
+namespace app\libs;
 use blog\App;
 class Pagination
 {
@@ -18,10 +18,6 @@ class Pagination
         $this->countPages = $this->getCountPages();
         $this->currentPage = $this->getCurrentPage($currentPage);
         $this->uri = $this->getParams(); //???????
-        
-        // debug($this->countPosts);
-        // debug($this->countPostsOnPage);
-        // debug($this->countPages);
 
 
     }
@@ -30,7 +26,7 @@ class Pagination
     {
         return ceil($this->countPosts/$this->countPostsOnPage) ?: 1; //количество страниц
     }
-    
+
     // проверка корректности get параметра, в кот содержится номер страницы
     public function getCurrentPage($currentPage)
     {
@@ -105,21 +101,6 @@ class Pagination
              </li>";
             }
 
-            if ($this->currentPage > 3 ) {
-                $startpage = "<li class='page-item'>
-                <a class='page-link' aria-label='' href='{$this->uri}page=1'>
-                 <span aria-hidden=''>&laquo;</span>
-                </a>
-             </li>";
-            }
-
-            if ($this->currentPage < ($this->countPages -2) ) {
-                $endpage = "<li class='page-item'>
-                <a class='page-link' aria-label='' href='{$this->uri}page={$this->countPages}'>
-                 <span aria-hidden=''>&raquo;</span>
-                </a>
-             </li>";
-            }
 
 
             if ($this->currentPage -2 > 0 ) {
