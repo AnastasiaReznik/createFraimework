@@ -50,9 +50,9 @@ use  blog\libs\Pagination;
 <div class="card md-4">
   <h5 class="card-header">Поиск</h5>
   <div class="card-body">
-  <form method="get" action="http://blog/">
+  <form method="get" action="/search">
       <div class="input-group">
-      <input type="text" class="form-control" name="search" placeholder="Поисковый запрос">
+      <input type="text" value="<?php if (isset($_GET['search'])) { echo $_GET['search'];} ?>" class="form-control" name="search" placeholder="Поисковый запрос" required>
       <span class="input-group-append">
         <button class="btn btn-secondary btnSearch" type="submit">Искать!</button>
       </span>

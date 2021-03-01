@@ -441,3 +441,21 @@
 ==========================
 24.02.2021 02:32:03 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
 ==========================
+01.03.2021 11:37:22 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+01.03.2021 12:16:56 | Текст ошибки: Call to a member function loadView() on string | Файл: D:\OSPanel\domains\blog\app\controllers\AppController.php | Строка: 24
+==========================
+01.03.2021 12:41:01 | Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 47
+==========================
+01.03.2021 12:42:31 | Текст ошибки: Не найден вид D:\OSPanel\domains\blog/app/views/Search/index.php | Файл: D:\OSPanel\domains\blog\vendor\blog\core\base\View.php | Строка: 44
+==========================
+01.03.2021 12:54:42 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 15
+==========================
+01.03.2021 12:55:22 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 15
+==========================
+01.03.2021 01:24:33 | Текст ошибки: syntax error, unexpected '?>' | Файл: D:\OSPanel\domains\blog\app\views\Search\index.php | Строка: 3
+==========================
+01.03.2021 03:40:07 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+01.03.2021 03:40:26 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
