@@ -2,24 +2,21 @@
 namespace app\controllers;
 use app\libs\Pagination;
 use blog\App;
-use app\models\Main;
+use app\models\Post;
 class MainController extends AppController
 {
     public function indexAction()
     {
         $this->setMeta('Главная страница');
 
-        $modelObj = new Main();
-        $countPosts = $this->baseModel->getCount('posts_content');
+        $postModel = new Post();
+        $countPosts = $postModel->getCountPosts();
         $currentPage = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-        // debug($countPosts);
-        $arrProp =(App::$app->getProperties());
-        $countPostsOnPage = $arrProp['count_post_on_page'];
-        // debug($countPostsOnPage);
+        $countPostsOnPage =(App::$app->getProperty('count_post_on_page'));
         $pagination = new Pagination($currentPage,$countPosts, $countPostsOnPage);
         $from = $pagination->getStart();
 
-        $allPosts = $modelObj->findAllPosts($from, $countPostsOnPage);
+        $allPosts = $postModel->getAllPosts($from, $countPostsOnPage);
 
         $cat = $this->allcategories;
         $this->set(compact('allPosts', 'pagination', 'cat'));

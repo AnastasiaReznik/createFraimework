@@ -1,51 +1,35 @@
 <!-- Post Content Column -->
 <div class="col-lg-8">
-<?php if (isset($msg)) : ?>
+
+<?php if (isset($data_to_render['msg'])) : ?>
   <div class="alert alert-primary" role="alert">
-    <?= $msg; ?>
+    <?= $data_to_render['msg']; ?>
   </div>
 <?php endif; ?>
 <!-- Title -->
-<h1 class="mt-4"><?= $post[$id_post]['title']; ?></h1>
+<?php $id_post = $data_to_render['id_post']  ?>
+<h1 class="mt-4"><?= $data_to_render['post']['title']; ?></h1>
 <hr>
 
 <!-- Date/Time -->
-<p>Опубликовано: <?= $post[$id_post]['date']; ?></p>
+<p>Опубликовано: <?= $data_to_render['post']['date']; ?></p>
 <hr>
 
 <!-- Preview Image -->
-<img class="" src="<?= $post[$id_post]['image']; ?>" alt="">
+<img class="" src="<?= $data_to_render['post']['image']; ?>" alt="">
 <hr>
 
 <!-- Post Content -->
-<p class="lead"><?= $post[$id_post]['text']; ?></p>
+<p class="lead"><?= $data_to_render['post']['text']; ?></p>
 <hr>
 
 <!-- Comments Form -->
 <div class="card my-4">
   <h5 class="card-header">Оставьте комментарий:</h5>
-  <?php if (isset($error)) : ?>
-  <?php if (isset($error['empty_field'])) : ?>
-  <?php if ($error['empty_field'] == 'userName') : ?>
+  <?php if (isset($data_to_render['error'])) : ?>
   <div class="alert alert-danger" role="alert">
-    <?php echo $error['error'] . ' "Ваше имя"'; ?>
+    <?php echo 'Необходимо заполнить поле ' . $data_to_render['error']; ?>
   </div>
-  <?php endif; ?>
-  <?php if ($error['empty_field'] == 'email') : ?>
-  <div class="alert alert-danger" role="alert">
-    <?php echo $error['error'] . ' "Email"'; ?>
-  </div>
-  <?php endif; ?>
-  <?php if ($error['empty_field'] == 'comment') : ?>
-  <div class="alert alert-danger" role="alert">
-    <?php echo $error['error'] . ' "Комментарий"'; ?>
-  </div>
-  <?php endif; ?>
-  <?php elseif (!isset($error['empty_field'])) : ?>
-    <div class="alert alert-danger" role="alert">
-    <?php echo "Заполните все поля!"; ?>
-  </div>
-  <?php endif; ?>
   <?php endif; ?>
   <div class="card-body">
     <form id="form-comments" method="POST" >
@@ -68,9 +52,9 @@
     </form>
   </div>
 </div>
-<?php if ($comments) : ?>
+<?php if ($data_to_render['comments']) : ?>
 <!-- Single Comment -->
-<?php foreach ($comments as $ind => $comment) : ?>
+<?php foreach ($data_to_render['comments'] as $ind => $comment) : ?>
 <div class="media mb-4">
   <div class="media-body">
     <hr>

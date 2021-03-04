@@ -1,7 +1,3 @@
-<?php
-use  blog\App;
-use  blog\libs\Pagination;
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -71,7 +67,7 @@ use  blog\libs\Pagination;
         <ul class="list-unstyled mb-0">
         <?php foreach ($cat as $key => $cat) : ?>
           <li>
-            <a href="/category/<?= $cat['name']; ?>" data-id='<?= $key ?>'><?= $cat['name']; ?></a>
+            <a href="/category/<?= $cat['alias']; ?>"><?= $cat['name']; ?></a>
           </li>
           <?php endforeach; ?>
         </ul>

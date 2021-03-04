@@ -459,3 +459,177 @@
 ==========================
 01.03.2021 03:40:26 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
 ==========================
+01.03.2021 06:03:58 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 10:38:47 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 11:37:34 | Текст ошибки: Call to a member function getCategories() on null | Файл: D:\OSPanel\domains\blog\app\controllers\AppController.php | Строка: 16
+==========================
+03.03.2021 12:01:04 | Текст ошибки: Call to a member function findQuery() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 12
+==========================
+03.03.2021 01:16:25 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:17:17 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:17:19 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:17:19 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 01:18:49 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:19:59 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:21:08 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\CategoryController.php | Строка: 15
+==========================
+03.03.2021 01:21:47 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\CategoryController.php | Строка: 15
+==========================
+03.03.2021 01:23:34 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:25:51 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:25:58 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\CategoryController.php | Строка: 15
+==========================
+03.03.2021 01:26:40 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:29:49 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:29:51 | Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 01:29:51 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 04:34:17 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 05:22:32 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 05:54:53 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 05:57:09 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 06:01:46 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 06:05:09 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 06:05:09 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:05:11 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 06:06:07 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 06:06:30 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 17
+==========================
+03.03.2021 06:08:43 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 18
+==========================
+03.03.2021 06:09:19 | Текст ошибки: Call to a member function getOneRow() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 18
+==========================
+03.03.2021 06:09:19 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:10:52 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 18
+==========================
+03.03.2021 06:11:13 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 18
+==========================
+03.03.2021 06:11:16 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 18
+==========================
+03.03.2021 06:12:07 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 21
+==========================
+03.03.2021 06:12:46 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 18
+==========================
+03.03.2021 06:12:46 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:14:34 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:14:34 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:14:46 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:15:35 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:15:37 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:15:37 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:15:58 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:16:26 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:16:41 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 22
+==========================
+03.03.2021 06:21:50 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 23
+==========================
+03.03.2021 06:21:50 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:21:54 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 23
+==========================
+03.03.2021 06:22:54 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 19
+==========================
+03.03.2021 06:22:54 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:24:15 | Текст ошибки: Call to a member function getComments() on null | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 30
+==========================
+03.03.2021 06:25:11 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:25:12 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:25:14 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:25:14 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:26:02 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:26:02 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:26:14 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:28:12 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:29:14 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:32:34 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:34:19 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:34:19 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:34:21 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:34:48 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:34:48 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:38:31 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 11
+==========================
+03.03.2021 06:38:31 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 06:39:16 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Comments.php | Строка: 12
+==========================
+03.03.2021 06:41:10 | Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'comments' at line 1 | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+03.03.2021 06:50:20 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+03.03.2021 07:11:06 | Текст ошибки: Call to a member function getAll() on null | Файл: D:\OSPanel\domains\blog\app\models\Post.php | Строка: 26
+==========================
+04.03.2021 11:18:51 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+04.03.2021 11:28:56 | Текст ошибки: Call to protected method app\models\Comments::insertComment() from context 'app\controllers\PostController' | Файл: D:\OSPanel\domains\blog\app\controllers\PostController.php | Строка: 74
+==========================
+04.03.2021 11:44:32 | Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'author' cannot be null | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+04.03.2021 11:44:32 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+04.03.2021 11:44:42 | Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'author' cannot be null | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+04.03.2021 11:45:12 | Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'author' cannot be null | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+04.03.2021 11:45:14 | Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'author' cannot be null | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+04.03.2021 11:45:14 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+04.03.2021 11:45:16 | Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'author' cannot be null | Файл: D:\OSPanel\domains\blog\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 202
+==========================
+04.03.2021 11:52:31 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+04.03.2021 01:04:48 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
+04.03.2021 02:40:28 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\app\controllers\CategoryController.php | Строка: 12
+==========================
+04.03.2021 02:40:31 | Текст ошибки: Метод app\controllers\CategoryController::indexAction не найден | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 43
+==========================

@@ -1,60 +1,61 @@
 <?php
 namespace app\controllers;
-use app\models\Post;
+use blog\App;
+use app\models\Comments;
+
 class PostController extends AppController
 {
+    private $commentsModel;
     public function readAction()
     {
         $alias = $this->route['alias'];
-        // debug($alias);
-        // $alias_
-        // $update_alias =  \R::exec("UPDATE");
-        $post = $this->baseModel->findQuery('posts_content', "alias", $alias);
-        // debug($post);
+        $this->commentsModel = new Comments();
+
+        $post = $this->baseModel->getOneRow('posts_content', 'alias = ?', [$alias]);
+
         if (!$post) {
             throw new \Exception('Страница не найдена', 404);
         }
-        // $this->setMeta($post);
-        $id_post = key($post);
-        $comments = $this->baseModel->findQuery('comments', 'id_post', $id_post);
-        $this->setMeta($post[key($post)]['title']);
+        $id_post =$post['id'];
+        $comments = $this->commentsModel->getComments($id_post);
+        $this->setMeta($post['title']);
         $cat = $this->allcategories;
 
-        //в контроллер!!!!!
-        if (isset($_POST['userName']) AND isset($_POST['email']) AND isset($_POST['comment'])) {
-            // debug($_POST);
-        $this->checkCaptcha();
-        $data_forms = checkDataForm($_POST);
-        // debug($data_forms);
-        //если вернулась ошибка, то показать  в разметке ошибку - поле не заполнено
-        if (isset($data_forms['error'])) {
-            $error = ['error' => $data_forms['error'], 'empty_field' => $data_forms['empty_field']];
-            // echo 'erroors true';
-        }
-
+        if (isset($_POST) AND !empty($_POST)) {
+            $data_forms = checkDataForm($_POST);
+            $this->checkCaptcha($data_forms);
+            //если вернулась ошибка, то показать  в разметке ошибку - поле не заполнено
+            if (isset($data_forms['empty_field'])) {
+                $fields_form = (App::$app->getProperty('fields_comments_form'));
+                if (array_key_exists($data_forms['empty_field'], $fields_form))
+                {
+                    $error = $fields_form[$data_forms['empty_field']];
+                }
+            }
         $res_insert = $this->addCommentInDb($data_forms, $id_post);
         if ($res_insert) {
             $msg = 'Комментарий отправлен на проверку!';
-            header("Refresh:3");
+            header("Refresh:2");
         } else {
             $msg = 'При отправке комментария произошла ошибка! Повторите позже.';
         }
         }
+        $data_to_render = ['id_post' => $id_post,'post' => $post, 'comments' => $comments];
         if (isset($error)) {
-            $this->set(compact('id_post','post', 'comments','cat', 'error'));
+            $data_to_render['error'] = $error;
         } elseif (isset($msg)) {
-            $this->set(compact('id_post','post', 'comments','cat', 'msg'));
-        } else  {
-            $this->set(compact('id_post','post', 'comments','cat'));
+            $data_to_render['msg'] = $msg;
         }
+            $this->set(compact('data_to_render', 'cat'));
     }
-    public function checkCaptcha()
+    public function checkCaptcha($data_forms)
     {
-        if (!$_POST['g-recaptcha-response']) {
-            die('Заполните каптчу!');
-            }
-            $url = 'https://www.google.com/recaptcha/api/siteverify';
-            $secret_key = '6Ldo4VgaAAAAANOMj_iLFWqtx9AoilSjN9nnZaz_';
+        if (!isset($data_forms['g-recaptcha-response'])) {
+            $data_forms['empty_field'] = 'g-recaptcha-response';
+            return $data_forms;
+        }
+            $url= App::$app->getProperty('url_recaptcha');
+            $secret_key = App::$app->getProperty('secret_key');
             $query = $url . '?secret=' . $secret_key . '&response='. $_POST['g-recaptcha-response'] . '&remoteip=' . $_SERVER['REMOTE_ADDR'];
 
             $data = json_decode(file_get_contents($query));
@@ -63,11 +64,9 @@ class PostController extends AppController
             }
     }
 
-            //вынести в оор
-        public function addCommentInDb($comment, $id_post)
+        private function addCommentInDb($comment, $id_post)
         {
-            $modelObj = new Post();
-            $res_insert = $modelObj->insertComment($comment, $id_post);
+            $res_insert = $this->commentsModel->insertComment($comment, $id_post);
         if ($res_insert == 1) {
             return true;
         } else {
