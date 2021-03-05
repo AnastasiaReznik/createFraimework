@@ -633,3 +633,5 @@
 ==========================
 04.03.2021 02:40:31 | Текст ошибки: Метод app\controllers\CategoryController::indexAction не найден | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 43
 ==========================
+05.03.2021 10:19:02 | Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\blog\vendor\blog\core\Router.php | Строка: 50
+==========================
