@@ -27,8 +27,11 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/admin">Вход</a>
           </li>
         </ul>
       </div>
@@ -65,9 +68,9 @@
     <div class="row">
       <div class="col-lg-6">
         <ul class="list-unstyled mb-0">
-        <?php foreach ($cat as $key => $cat) : ?>
+        <?php foreach ($cat as $key => $categ) : ?>
           <li>
-            <a href="/category/<?= $cat['alias']; ?>"><?= $cat['name']; ?></a>
+            <a href="/category/<?= $categ['alias']; ?>"><?= $categ['name']; ?></a>
           </li>
           <?php endforeach; ?>
         </ul>

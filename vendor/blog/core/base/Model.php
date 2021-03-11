@@ -12,4 +12,6 @@ abstract class Model
     {
         Db::instance();
     }
+
+    
 }
