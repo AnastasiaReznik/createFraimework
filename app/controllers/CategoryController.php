@@ -7,7 +7,6 @@ public function showAction()
 {
     $alias = $this->route['alias'];
     $data_category = $this->baseModel->getOneRow('categories','alias = ?', [$alias]);
-    // debug($id_category);
     if (!$data_category) {
         throw new \Exception('Страница не найдена', 404);
     }

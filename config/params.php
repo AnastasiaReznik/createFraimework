@@ -6,6 +6,7 @@ return [
     'url_recaptcha' => 'https://www.google.com/recaptcha/api/siteverify',
     'secret_key' => '6Ldo4VgaAAAAANOMj_iLFWqtx9AoilSjN9nnZaz_', //google captcha
     'fields_comments_form' => ['userName' => 'Ваше имя', 'email' => 'Email', 'comment' => 'Комментарий', 'g-recaptcha-response' => 'Каптча'],
+    'fields_posts_form' => ['title'=>'', 'text'=>'','author'=>'', 'alias'=>'', 'id_category' => '', 'image' => ''],
     'smtp_login' => '',
     'smtp_password' => ''
 ];
