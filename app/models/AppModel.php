@@ -7,11 +7,4 @@ class AppModel extends Model
       {
         return \R::findOne($table_name, $sql, $value);
       }
-
-      
-      // public function getOneCell($cell,$table_name, $field, $value)
-      // {
-      //   return \R::getCell("SELECT $cell FROM $table_name WHERE $field = ?", $value);
-      // }
-
 }

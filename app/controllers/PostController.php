@@ -17,7 +17,7 @@ class PostController extends AppController
             throw new \Exception('Страница не найдена', 404);
         }
         $id_post =$post['id'];
-        $comments = $this->commentsModel->getComments($id_post);
+        $comments = $this->commentsModel->getCommentsOnePost($id_post);
         $this->setMeta($post['title']);
         $cat = $this->allcategories;
 

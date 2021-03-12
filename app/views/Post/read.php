@@ -55,6 +55,7 @@
 <?php if ($data_to_render['comments']) : ?>
 <!-- Single Comment -->
 <?php foreach ($data_to_render['comments'] as $ind => $comment) : ?>
+<?php if ($comment['status'] == 'approve') : ?>
 <div class="media mb-4">
   <div class="media-body">
     <hr>
@@ -62,6 +63,7 @@
     <?= htmlspecialchars($comment['comment'], ENT_QUOTES, 'utf-8'); ?>
   </div>
 </div>
+<?php endif; ?>
 <?php endforeach;  ?>
 <?php endif; ?>
 </div>
